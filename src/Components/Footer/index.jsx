@@ -9,15 +9,14 @@ function Footer() {
         <footer>
             <div className="container">
                 <div className="row">
-                    {FootersList.map((item, index) => {
-                        return (
-                            <div className="col-3" key={index}>
+                    {FootersList.map((item, index) => 
+                         (
+                            <div className="col-3" key={`${index + 1}`}>
                                 <div className="community-links">
                                     <h3>{item?.footertitle}</h3>
                                     <ul>
-                                        {item?.footerLinks.map((list, indx) => {
-                                            return (
-                                                <li key={indx}>
+                                        {item?.footerLinks.map((list, indx) => (
+                                                <li key={`${indx + 1}`}>
                                                     <Link to={list?.link}>
                                                         {list?.image ? (
                                                             <div className="link-icon">
@@ -36,13 +35,12 @@ function Footer() {
                                                         {list?.linkText}
                                                     </Link>
                                                 </li>
-                                            )
-                                        })}
+                                            ))}
                                     </ul>
                                 </div>
                             </div>
                         )
-                    })}
+                    )}
                 </div>
             </div>
             <div className="copyRight">
@@ -76,7 +74,7 @@ function Footer() {
                         </div>
                         <p>
                             © Copyright Unilayer 2022,{' '}
-                            <Link to=""> Privacy Policy</Link>
+                            <Link to="/"> Privacy Policy</Link>
                         </p>
                     </div>
                 </div>

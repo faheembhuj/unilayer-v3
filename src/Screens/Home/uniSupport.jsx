@@ -11,13 +11,15 @@ function UniSupport() {
                 </h1>
                 {Supporter.map((item, index) => {
                     return (
-                        <div key={index}>
+                        <div key={`${index + 1}`}>
                             <p className="pink-col">{item?.PinkSubTitle}</p>
-                            <div className="row" key={index}>
+                            <div className="row">
                                 {item?.SupportorImages.map((lists, indx) => {
-                                    console.log(lists, 'lists')
                                     return (
-                                        <div className="col-3" key={indx}>
+                                        <div
+                                            className="col-3"
+                                            key={`${indx + 1}`}
+                                        >
                                             <CoinCard list={lists} />
                                         </div>
                                     )

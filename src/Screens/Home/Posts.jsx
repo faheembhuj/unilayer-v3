@@ -8,7 +8,7 @@ function Posts() {
                 <div className="row">
                     {PostsList.map((item, index) => {
                         return (
-                            <div className="col-3" key={index}>
+                            <div className="col-3" key={`${index + 1}`}>
                                 <div className="card">
                                     <h3 className="HeadingH4">{item?.title}</h3>
                                     <div className="card-img">

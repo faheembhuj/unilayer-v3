@@ -16,17 +16,10 @@ import CLose from '../../Assets/Images/CLose.svg'
 function Header() {
     const [isActive, setIsActive] = useState(false)
 
-    const handleClick = (event) => {
+    const handleClick = () => {
         setIsActive((current) => !current)
     }
 
-    const onClickOutsideBoxOneCallback = useCallback(() => {
-        // console.log('onClickOutsideBoxOneCallback', { boxOneRef, isBoxOneOpen })
-        if ((current) => !current) return false
-        setIsActive(false)
-    }, [isActive])
-
-    // const useClickOutside
     return (
         <header className="header">
             <div className="topbar">
@@ -49,16 +42,16 @@ function Header() {
                             <div className="menu">
                                 <ul>
                                     <li>
-                                        <a href="#">Buy Unilayer</a>
+                                        <Link to="/">Buy Unilayer</Link>
                                     </li>
                                     <li>
-                                        <a href="#">Staking</a>
+                                        <Link to="/">Staking</Link>
                                     </li>
                                     <li>
-                                        <a href="#">Docs</a>
+                                        <Link to="/">Docs</Link>
                                     </li>
                                     <li>
-                                        <a onClick={handleClick}>
+                                        <span onClick={handleClick}>
                                             {isActive ? (
                                                 <img src={CLose} alt="CLose" />
                                             ) : (
@@ -67,7 +60,7 @@ function Header() {
                                                     alt="Toggle"
                                                 />
                                             )}
-                                        </a>
+                                        </span>
                                     </li>
                                     {isActive ? (
                                         <ul
@@ -76,78 +69,78 @@ function Header() {
                                             }`}
                                         >
                                             <li>
-                                                <a href="">
+                                                <Link to="/">
                                                     <img
                                                         src={Cryptocurrencies}
                                                         alt="All Cryptocurrencies"
                                                     />
                                                     All Cryptocurrencies
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="">
+                                                <Link to="/">
                                                     <img
                                                         src={Widget}
                                                         alt="Widget Setup"
                                                     />
                                                     Widget Setup
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="">
+                                                <Link to="/">
                                                     <img src={SDK} alt="SDK" />
                                                     SDK
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="">
+                                                <Link to="/">
                                                     <img
                                                         src={Security}
                                                         alt="Security"
                                                     />
                                                     Security
-                                                </a>
+                                                </Link>
                                             </li>
 
                                             <li>
-                                                <a href="">
+                                                <Link to="/">
                                                     <img
                                                         src={LAYER}
                                                         alt="LAYER Token"
                                                     />
                                                     LAYER Token
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="">
+                                                <Link to="/">
                                                     <img
                                                         src={FiatonRamp}
                                                         alt="Fiat-on-Ramp"
                                                     />
                                                     Fiat-on-Ramp
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="">
+                                                <Link to="/">
                                                     <img
                                                         src={Team}
                                                         alt="Team"
                                                     />
                                                     Team
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="">
+                                                <Link to="/">
                                                     <img src={FAQ} alt="FAQ" />
                                                     FAQ
-                                                </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     ) : (
                                         ''
                                     )}
                                     <li className="menuBtn">
-                                        <a href="#">Launch App</a>
+                                        <Link to="/">Launch App</Link>
                                     </li>
                                 </ul>
                             </div>

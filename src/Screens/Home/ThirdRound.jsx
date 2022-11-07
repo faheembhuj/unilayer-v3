@@ -12,7 +12,7 @@ function ThirdRound() {
                 <div className="row">
                     {ThirdRoundList.map((item, index) => {
                         return (
-                            <div className="col-4" key={index}>
+                            <div className="col-4" key={`${index + 1}`}>
                                 <div className="round-item">
                                     <div className="item-img">
                                         <img

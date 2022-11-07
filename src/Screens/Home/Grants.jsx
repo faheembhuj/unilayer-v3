@@ -16,9 +16,9 @@ function Grants() {
                             blockchain platforms.
                         </p>
                         <div className="row">
-                            {GrantsList.map(( item , index) => {
+                            {GrantsList.map((item, index) => {
                                 return (
-                                    <div className="col-4" key={index}>
+                                    <div className="col-4" key={`${index + 1}`}>
                                         <CoinCard list={item} />
                                     </div>
                                 )
