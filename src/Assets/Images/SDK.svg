@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_16943" data-name="Rectangle 16943" width="20" height="20" transform="translate(1291 145)" fill="#959eb1" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="SDK" transform="translate(-1291 -145)" clip-path="url(#clip-path)">
+    <g id="实施单位管理" transform="translate(1291 146.395)">
+      <path id="Path_8732" data-name="Path 8732" d="M10.033,3.837H4.651A2.558,2.558,0,0,0,2.093,6.4V18.488a2.558,2.558,0,0,0,2.558,2.558H19.535a2.558,2.558,0,0,0,2.558-2.558V8.721l0-.1a2.558,2.558,0,0,0-2.556-2.455H13.08L10.479,4a.7.7,0,0,0-.447-.161Zm-5.381,1.4H9.78l2.6,2.164a.7.7,0,0,0,.447.161h6.707A1.163,1.163,0,0,1,20.7,8.721v9.767a1.163,1.163,0,0,1-1.163,1.163H4.651a1.163,1.163,0,0,1-1.163-1.163V6.4A1.163,1.163,0,0,1,4.651,5.233Z" transform="translate(-2.093 -3.837)" fill="#959eb1"/>
+      <path id="Path_8733" data-name="Path 8733" d="M10.814,21.628m-.7,0a.7.7,0,1,0,.7-.7A.7.7,0,0,0,10.116,21.628Z" transform="translate(-4.767 -9.535)" fill="#959eb1"/>
+      <path id="Path_8734" data-name="Path 8734" d="M10.814,14.651m-.7,0a.7.7,0,1,0,.7-.7A.7.7,0,0,0,10.116,14.651Z" transform="translate(-4.767 -7.209)" fill="#959eb1"/>
+      <path id="Path_8735" data-name="Path 8735" d="M20.93,13.953A.7.7,0,0,1,21,15.346l-.067,0H15.349a.7.7,0,0,1-.067-1.392l.067,0Zm0,4.651A.7.7,0,0,1,21,20l-.067,0H15.349a.7.7,0,0,1-.067-1.392l.067,0Z" transform="translate(-6.279 -7.209)" fill="#959eb1"/>
+    </g>
+  </g>
+</svg>

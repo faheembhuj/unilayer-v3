@@ -1,38 +1,344 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: #17181A;
+}
+
+.HeadingH1 {
+  font-family: 'Roboto';
+  font-size: 75px;
+  font-weight: bold;
+  line-height: 75px;
+  text-transform: uppercase;
+  color: #f5f5f5;
+}
+
+.pink-col {
+  color: #ff84a1;
+}
+
+.HeadingH2 {
+  font-family: 'Roboto';
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: #f5f5f5;
+}
+
+.HeadingH3 {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 70px;
+  color: #f5f5f5;
+}
+
+.HeadingH4 {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 29px;
+  color: #f5f5f5;
+}
+
+.para {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 35px;
+  color: #959EB1;
+}
+
+.paradark {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #959EB1;
+}
+
+.topbar {
+  background: #FF48A1;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+p.paraprimary {
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  line-height: 30px;
+  color: #fff;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+p.paraprimary a {
+  color: rgb(255 255 255 / 57%);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p.paraprimary a svg {
+  color: #fff;
+  margin: 0px 0 0 10px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1190px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+header.header {
+  box-shadow: 0 0 17px #00000021;
+}
+
+.col-4 {
+  width: 30%;
+}
+
+.col-8 {
+  width: 70%;
+}
+
+.navbar .menu ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+
+.navbar .menu ul li {
+  margin: 0 15px;
+}
+
+.site-logo {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.site-logo img {
+  width: 100%;
+  max-width: 60%;
+}
+
+.header .row {
+  align-items: center;
+}
+
+.navbar {
+  background: #1A1B1D;
+}
+
+.navbar .menu ul li a {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #959EB1;
+  line-height: 22px;
+  transition: all 0.5s ease;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navbar .menu ul li a:hover {
+  color: #ff48a1;
+}
+
+.navbar .menu ul li.menuBtn a {
+  padding: 11.5px 25px;
+  background: #ff48a1;
+  color: #FFFFFF;
+  border-radius: 10px;
+}
+
+.navbar .menu ul li.menuBtn a:hover,
+.actionBtn:hover,
+.new-letter .new-field form input[type="submit"]:hover {
+  background: #1a1b1d;
+  box-shadow: 0 0 20px #ff48a154;
+}
+
+.navbar .menu ul ul.sub-menu {
+  position: absolute;
+  flex-direction: column;
+  top: 72px;
+  background: #1A1B1D;
+  box-shadow: 0 0 20px #0B0B0B99;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  align-items: self-start;
+  width: 287px;
+  right: -70px;
+  opacity: 0;
+}
+
+.navbar .menu ul ul.sub-menu.Active {
+  top: 62px;
+  opacity: 1;
+}
+
+.navbar .menu ul ul.sub-menu li {
+  margin: 2px 0;
+  width: 100%;
+}
+
+.navbar .menu ul ul.sub-menu li img {
+  transition: all 0.5s ease;
+  width: 100%;
+  max-width: 19px;
+  margin: 0 13px 0 0;
+}
+
+.navbar .menu ul ul.sub-menu li a {
+  font-size: 16px;
+  padding: 8px 0;
+  width: 100%;
+  display: block;
+}
+
+.navbar .menu ul ul.sub-menu li a:hover img {
+  filter: brightness(0) saturate(100%) invert(47%) sepia(37%) saturate(4788%) hue-rotate(305deg) brightness(101%) contrast(101%);
+}
+
+footer {
+  padding: 3% 0;
+}
+
+footer .community-links h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #959EB1;
+  font-family: 'Roboto';
+  font-weight: bold;
+  line-height: 30px;
+}
+
+footer .community-links ul li {
+  margin: 5px 0;
+}
+
+footer .community-links ul li a {
+  display: flex;
+  padding: 3px 0;
+  width: fit-content;
+  font-size: 18px;
+  font-weight: bold;
+  color: #F5F5F5;
+  line-height: 30px;
+  transition: all 0.5s ease;
+}
+
+footer .community-links ul li a .link-icon {
+  width: 26%;
+  margin: 0 12px 0 0;
+}
+
+footer .community-links ul li a .link-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+footer .community-links ul li a:hover {
+  color: #ff48a1;
+}
+
+footer .community-links ul li a:hover img {
+  filter: brightness(0) saturate(100%) invert(47%) sepia(37%) saturate(4788%) hue-rotate(305deg) brightness(101%) contrast(101%);
+}
+
+
+.copyRight {
+  margin: 40px 0 0 0;
+  border-top: 1px solid #242424;
+  padding: 1.7% 0 1% 0;
+}
+
+.copyRight p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #F5F5F5;
+  margin: 40px 0 0 0;
+}
+
+.copyRight p a {
+  color: #FF48A1;
+  margin: 0 0 0 8px;
+}
+
+.language-list .lange {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.language-list .lange span {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 0 0 0 10px;
+  color: #F5F5F5;
+}
+
+.lange-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.lange-list .rbc-rate {
+  margin: 0 30px 0 0;
+  display: flex;
+  align-items: center;
+}
+
+.lange-list span {
+  font-size: 18px;
+  font-weight: 400;
+  color: #F5F5F5;
+  line-height: 22px;
+}
+
+.language-list .lange-list .rbc-bug:hover {
+  background: #1c1d23;
+}
+
+.language-list .lange-list .rbc-bug {
+  padding: 20px 20px;
+  border: 2px solid #FF48A1;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 24%;
+  transition: all 0.5s ease;
+}
+
+.language-list .lange-list .rbc-bug img {
+  width: 100%;
+  max-width: 31%;
 }

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="45" viewBox="0 0 45 45">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_16773" data-name="Rectangle 16773" width="45" height="45" transform="translate(385 2166)" fill="#4d4d4d"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_8" data-name="Mask Group 8" transform="translate(-385 -2166)" clip-path="url(#clip-path)">
+    <g id="ethereum" transform="translate(384.009 2165.876)">
+      <path id="Path_7974" data-name="Path 7974" d="M23.491,45.124a22.5,22.5,0,1,0-22.5-22.5A22.5,22.5,0,0,0,23.491,45.124Z" fill="#627eea"/>
+      <path id="Path_7975" data-name="Path 7975" d="M24.191,5.748V18.221l10.543,4.711Z" fill="rgba(255,255,255,0.6)"/>
+      <path id="Path_7976" data-name="Path 7976" d="M24.182,5.748,13.638,22.933l10.544-4.711Z" fill="#fff"/>
+      <path id="Path_7977" data-name="Path 7977" d="M24.191,31.016v8.476l10.55-14.6Z" fill="rgba(255,255,255,0.6)"/>
+      <path id="Path_7978" data-name="Path 7978" d="M24.182,39.491V31.014L13.638,24.9Z" fill="#fff"/>
+      <path id="Path_7979" data-name="Path 7979" d="M24.191,29.052l10.543-6.121L24.191,18.223Z" fill="rgba(255,255,255,0.2)"/>
+      <path id="Path_7980" data-name="Path 7980" d="M13.638,22.931l10.544,6.121V18.223Z" fill="rgba(255,255,255,0.6)"/>
+    </g>
+  </g>
+</svg>

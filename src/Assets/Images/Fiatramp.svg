@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_16943" data-name="Rectangle 16943" width="20" height="20" transform="translate(1291 145)" fill="#959eb1" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Fiatramp" transform="translate(-1291 -145)" clip-path="url(#clip-path)">
+    <g id="钱包_付款" transform="translate(1291.002 145)">
+      <path id="Path_8741" data-name="Path 8741" d="M14.093,2.775,8.023,6.252a.7.7,0,0,0,.347,1.3H18.6a.7.7,0,0,0,.6-1.048l-1.628-2.8a2.558,2.558,0,0,0-3.482-.933ZM17.388,6.16h-6.4l3.8-2.175a1.163,1.163,0,0,1,1.583.424l1.018,1.75Zm6.561,11.161V11.275H18.136a3.023,3.023,0,1,0,0,6.045Zm-1.4-4.65v3.255H18.136a1.628,1.628,0,1,1,0-3.255Z" transform="translate(-3.952 -2.436)" fill="#959eb1"/>
+      <path id="Path_8742" data-name="Path 8742" d="M23.6,19.764m-.93,0a.93.93,0,1,0,.93-.93A.93.93,0,0,0,22.67,19.764Z" transform="translate(-8.952 -7.902)" fill="#959eb1"/>
+      <path id="Path_8743" data-name="Path 8743" d="M19.531,8.022H4.65A2.558,2.558,0,0,0,2.093,10.58V21.74A2.558,2.558,0,0,0,4.65,24.3H19.531a2.558,2.558,0,0,0,2.558-2.558V10.58A2.558,2.558,0,0,0,19.531,8.022ZM4.65,9.417H19.531a1.163,1.163,0,0,1,1.163,1.163V21.74A1.163,1.163,0,0,1,19.531,22.9H4.65A1.163,1.163,0,0,1,3.488,21.74V10.58A1.163,1.163,0,0,1,4.65,9.417Z" transform="translate(-2.093 -4.298)" fill="#959eb1"/>
+    </g>
+  </g>
+</svg>

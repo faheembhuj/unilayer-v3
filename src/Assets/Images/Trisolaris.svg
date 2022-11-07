@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="45" viewBox="0 0 45 45">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_16773" data-name="Rectangle 16773" width="45" height="45" transform="translate(385 2166)" fill="#4d4d4d"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_16800" data-name="Rectangle 16800" width="45" height="45" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_18" data-name="Mask Group 18" transform="translate(-385 -2166)" clip-path="url(#clip-path)">
+    <g id="trisolaris" transform="translate(385 2166)" clip-path="url(#clip-path-2)">
+      <path id="Path_8016" data-name="Path 8016" d="M25.8,4.048A1.318,1.318,0,1,0,24.486,2.73,1.318,1.318,0,0,0,25.8,4.048Z" fill="#9bcada"/>
+      <path id="Path_8017" data-name="Path 8017" d="M42.27,6.873a1.318,1.318,0,1,0-1.318-1.318A1.318,1.318,0,0,0,42.27,6.873Z" fill="#c6e0ea"/>
+      <path id="Path_8018" data-name="Path 8018" d="M38.033,33.7a1.318,1.318,0,1,0-1.318-1.318A1.318,1.318,0,0,0,38.033,33.7Z" fill="#f0f5fa"/>
+      <path id="Path_8019" data-name="Path 8019" d="M29.56,40.764a1.318,1.318,0,1,0-1.318-1.318A1.318,1.318,0,0,0,29.56,40.764Z" fill="#9bcada"/>
+      <path id="Path_8020" data-name="Path 8020" d="M4.143,18.17a1.318,1.318,0,1,0-1.318-1.318A1.318,1.318,0,0,0,4.143,18.17Z" fill="#f0f5fa"/>
+      <path id="Path_8021" data-name="Path 8021" d="M43.682,40.245h-.8v-.8a1.318,1.318,0,1,0-2.637,0v.8h-.8a1.318,1.318,0,1,0,0,2.637h.8v.8a1.318,1.318,0,1,0,2.637,0v-.8h.8a1.318,1.318,0,0,0,0-2.637Z" fill="#c6e0ea"/>
+      <path id="Path_8022" data-name="Path 8022" d="M21.529,41.3a12.613,12.613,0,1,0-17.838,0A12.613,12.613,0,0,0,21.529,41.3Z" fill="#00f4ff"/>
+      <path id="Path_8023" data-name="Path 8023" d="M35.209,28.054a9.791,9.791,0,1,0-9.791-9.791A9.791,9.791,0,0,0,35.209,28.054Z" fill="#ff6378"/>
+      <path id="Path_8024" data-name="Path 8024" d="M15.723,12.042A6.262,6.262,0,1,0,7.54,8.655,6.262,6.262,0,0,0,15.723,12.042Z" fill="#ffb428"/>
+      <path id="Path_8025" data-name="Path 8025" d="M12.615,19.769V45a12.615,12.615,0,1,0,0-25.231Z" fill="#00b4fc"/>
+      <path id="Path_8026" data-name="Path 8026" d="M25.231,32.385A12.616,12.616,0,0,0,.766,28.055H14.027a1.506,1.506,0,0,1,0,3.012H11.2a4.143,4.143,0,0,0,0,8.285H23.127A12.541,12.541,0,0,0,25.231,32.385Z" fill="#00b4fc"/>
+      <path id="Path_8027" data-name="Path 8027" d="M25.231,32.385A12.63,12.63,0,0,0,12.615,19.769v8.285h1.412a1.506,1.506,0,0,1,0,3.012H12.615v8.285H23.127A12.542,12.542,0,0,0,25.231,32.385Z" fill="#0073f9"/>
+      <path id="Path_8028" data-name="Path 8028" d="M35.209,28.054V8.472a9.791,9.791,0,0,1,0,19.582Z" fill="#d000b1"/>
+      <path id="Path_8029" data-name="Path 8029" d="M36.621,19.769H25.534a9.711,9.711,0,0,0,.805,2.637H36.621a1.318,1.318,0,0,0,0-2.637Z" fill="#d000b1"/>
+      <path id="Path_8030" data-name="Path 8030" d="M44.079,14.121H33.8a1.318,1.318,0,1,0,0,2.637H44.884A9.71,9.71,0,0,0,44.079,14.121Z" fill="#d000b1"/>
+      <path id="Path_8031" data-name="Path 8031" d="M37.939,21.088a1.318,1.318,0,0,0-1.318-1.318H35.209v2.637h1.412A1.318,1.318,0,0,0,37.939,21.088Z" fill="#9330a0"/>
+      <path id="Path_8032" data-name="Path 8032" d="M44.829,16.442l-.011-.059q-.063-.321-.146-.634l-.01-.038c-.028-.1-.058-.207-.089-.309v0q-.1-.329-.224-.649h0q-.123-.32-.268-.628h-8.87v2.637h9.675C44.868,16.652,44.849,16.546,44.829,16.442Z" fill="#9330a0"/>
+      <path id="Path_8033" data-name="Path 8033" d="M19.582,6.261A6.268,6.268,0,0,0,13.321,0V12.522A6.268,6.268,0,0,0,19.582,6.261Z" fill="#ff8c00"/>
+    </g>
+  </g>
+</svg>

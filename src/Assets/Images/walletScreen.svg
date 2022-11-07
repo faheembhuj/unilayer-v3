@@ -1,0 +1,98 @@
+<svg id="Component_32_2" data-name="Component 32 – 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1196" height="185" viewBox="0 0 1196 185">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_16820" data-name="Rectangle 16820" width="15" height="15" transform="translate(783 5640)" fill="#ff48a1" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_16828" data-name="Rectangle 16828" width="20" height="20" transform="translate(1506 5572)" fill="#ff48a1"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <circle id="Ellipse_542" data-name="Ellipse 542" cx="10" cy="10" r="10" transform="translate(395 5638)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectangle_16816" data-name="Rectangle 16816" width="1196" height="185" rx="10" fill="#1c1d23"/>
+  <text id="Unilayer" transform="translate(70 44.001)" fill="#ff48a1" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Unilayer</tspan></text>
+  <rect id="Rectangle_16819" data-name="Rectangle 16819" width="104.318" height="27" rx="5" transform="translate(89 140)" fill="#18191d"/>
+  <rect id="Rectangle_16825" data-name="Rectangle 16825" width="104.318" height="27" rx="5" transform="translate(598 140)" fill="#18191d"/>
+  <rect id="Rectangle_16817" data-name="Rectangle 16817" width="50" height="50" rx="10" transform="translate(19 80)" fill="#18191d"/>
+  <rect id="Rectangle_16826" data-name="Rectangle 16826" width="50" height="50" rx="10" transform="translate(528 80)" fill="#18191d"/>
+  <g id="Rectangle_16818" data-name="Rectangle 16818" transform="translate(89 80)" fill="#18191d" stroke="#242424" stroke-width="1">
+    <rect width="366" height="50" rx="10" stroke="none"/>
+    <rect x="0.5" y="0.5" width="365" height="49" rx="9.5" fill="none"/>
+  </g>
+  <g id="Rectangle_16822" data-name="Rectangle 16822" transform="translate(598 80)" fill="#18191d" stroke="#242424" stroke-width="1">
+    <rect width="366" height="50" rx="10" stroke="none"/>
+    <rect x="0.5" y="0.5" width="365" height="49" rx="9.5" fill="none"/>
+  </g>
+  <g id="svg-21" transform="translate(484 97)">
+    <path id="svg-21-2" data-name="svg-21" d="M5,13H16.17l-4.88,4.88a1.008,1.008,0,0,0,0,1.42,1,1,0,0,0,1.41,0l6.59-6.59a1,1,0,0,0,0-1.41L12.71,4.7a1,1,0,1,0-1.41,1.41L16.17,11H5a1,1,0,0,0,0,2Z" transform="translate(-4 -4.41)" fill="#ff48a1"/>
+  </g>
+  <text id="_11_568.292725" data-name="11,568.292725" transform="translate(100 111)" fill="#959eb1" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">11,568.292725</tspan></text>
+  <text id="_11_568.292725-2" data-name="11,568.292725" transform="translate(609 111)" fill="#959eb1" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">11,568.292725</tspan></text>
+  <text id="_3_403.38" data-name="$3,403.38" transform="translate(100 158)" fill="#f5f5f5" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">$3,403.38</tspan></text>
+  <text id="_3_403.38-2" data-name="$3,403.38" transform="translate(609 158)" fill="#f5f5f5" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">$3,403.38</tspan></text>
+  <text id="ETH" transform="translate(371 111)" fill="#959eb1" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">ETH</tspan></text>
+  <text id="LAYER" transform="translate(880 111)" fill="#959eb1" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">LAYER</tspan></text>
+  <g id="Mask_Group_69" data-name="Mask Group 69" transform="translate(-361 -5542)" clip-path="url(#clip-path)">
+    <g id="close" transform="translate(777.211 5635)">
+      <path id="Path_8601" data-name="Path 8601" d="M20.555,5.237a.79.79,0,0,1,.054,1.057l-.054.06L7.144,19.765a.79.79,0,0,1-1.172-1.058l.054-.06L19.437,5.237a.79.79,0,0,1,1.118,0Z" fill="#ff48a1"/>
+      <path id="Path_8602" data-name="Path 8602" d="M20.555,18.647A.79.79,0,0,1,19.5,19.818l-.06-.054L6.027,6.353A.79.79,0,0,1,7.085,5.181l.06.054L20.555,18.646Z" fill="#ff48a1"/>
+    </g>
+  </g>
+  <g id="Mask_Group_71" data-name="Mask Group 71" transform="translate(-350 -5542)" clip-path="url(#clip-path-2)">
+    <g id="setting" transform="translate(1504.572 5570.574)">
+      <path id="Path_8610" data-name="Path 8610" d="M20.644,13.967l-1.462-1.25a7.986,7.986,0,0,0,0-2.581l1.462-1.25a.715.715,0,0,0,.208-.786l-.02-.058a9.9,9.9,0,0,0-1.779-3.078l-.04-.047a.717.717,0,0,0-.784-.212l-1.815.645a7.866,7.866,0,0,0-2.226-1.286l-.35-1.9a.715.715,0,0,0-.576-.574l-.06-.011a10.085,10.085,0,0,0-3.549,0l-.06.011a.715.715,0,0,0-.576.574L8.663,4.074a7.854,7.854,0,0,0-2.21,1.281l-1.828-.65a.714.714,0,0,0-.784.212l-.04.047A9.956,9.956,0,0,0,2.022,8.043L2,8.1a.717.717,0,0,0,.208.786L3.69,10.15a7.962,7.962,0,0,0,0,2.549L2.21,13.963A.715.715,0,0,0,2,14.749l.02.058A9.931,9.931,0,0,0,3.8,17.885l.04.047a.717.717,0,0,0,.784.212l1.828-.65a7.8,7.8,0,0,0,2.21,1.281l.353,1.906a.715.715,0,0,0,.576.574l.06.011a10.015,10.015,0,0,0,3.549,0l.06-.011a.715.715,0,0,0,.576-.574l.35-1.9A7.813,7.813,0,0,0,16.414,17.5l1.815.645a.714.714,0,0,0,.784-.212l.04-.047a9.956,9.956,0,0,0,1.779-3.078l.02-.058a.712.712,0,0,0-.208-.781ZM17.6,10.4a6.284,6.284,0,0,1,0,2.058l-.147.9,1.668,1.426a8.26,8.26,0,0,1-.951,1.643l-2.072-.734-.7.576a6.238,6.238,0,0,1-1.77,1.022l-.85.319-.4,2.165a8.427,8.427,0,0,1-1.9,0l-.4-2.17-.844-.324a6.245,6.245,0,0,1-1.757-1.02l-.7-.578-2.085.741a8.435,8.435,0,0,1-.951-1.643l1.685-1.44-.145-.893A6.427,6.427,0,0,1,5.2,11.429a6.154,6.154,0,0,1,.083-1.016l.145-.893L3.739,8.081A8.26,8.26,0,0,1,4.69,6.438l2.085.741.7-.578a6.245,6.245,0,0,1,1.757-1.02l.846-.319.4-2.17a8.427,8.427,0,0,1,1.9,0l.4,2.165.85.319A6.269,6.269,0,0,1,15.4,6.6l.7.576,2.072-.734a8.435,8.435,0,0,1,.951,1.643L17.452,9.509Z" fill="#ff48a1"/>
+      <path id="Path_8611" data-name="Path 8611" d="M11.429,7.277a3.929,3.929,0,1,0,3.929,3.929A3.929,3.929,0,0,0,11.429,7.277Zm1.768,5.7a2.5,2.5,0,1,1,.732-1.768A2.491,2.491,0,0,1,13.2,12.974Z" fill="#ff48a1"/>
+    </g>
+  </g>
+  <rect id="Rectangle_16827" data-name="Rectangle 16827" width="191" height="50" rx="10" transform="translate(985 80)" fill="#ff48a1"/>
+  <text id="Connect_Wallet" data-name="Connect Wallet" transform="translate(1014 112)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Connect Wallet</tspan></text>
+  <g id="Component_178_1" data-name="Component 178 – 1" transform="translate(19 22)">
+    <rect id="Rectangle_16868" data-name="Rectangle 16868" width="35" height="7.241" fill="#fff"/>
+    <rect id="Rectangle_16869" data-name="Rectangle 16869" width="35" height="7.241" transform="translate(0 11.379)" fill="#ff48a2"/>
+    <rect id="Rectangle_16870" data-name="Rectangle 16870" width="35" height="7.241" transform="translate(0 22.759)" fill="#fff"/>
+    <g id="Component_178_4" data-name="Component 178 – 4" transform="translate(0.332)">
+      <rect id="Rectangle_16868-2" data-name="Rectangle 16868" width="35" height="7.241" fill="#fff"/>
+      <rect id="Rectangle_16869-2" data-name="Rectangle 16869" width="35" height="7.241" transform="translate(0 11.379)" fill="#ff48a2"/>
+      <rect id="Rectangle_16870-2" data-name="Rectangle 16870" width="35" height="7.241" transform="translate(0 22.759)" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Mask_Group_70" data-name="Mask Group 70" transform="translate(-361 -5542)" clip-path="url(#clip-path-3)">
+    <g id="ethereum" transform="translate(394.559 5637.945)">
+      <path id="Path_8603" data-name="Path 8603" d="M10.44,20.055a10,10,0,1,0-10-10A10,10,0,0,0,10.44,20.055Z" fill="#627eea"/>
+      <path id="Path_8604" data-name="Path 8604" d="M10.752,2.555V8.1l4.686,2.094Z" fill="rgba(255,255,255,0.6)"/>
+      <path id="Path_8605" data-name="Path 8605" d="M10.748,2.555,6.062,10.192,10.748,8.1Z" fill="#fff"/>
+      <path id="Path_8606" data-name="Path 8606" d="M10.752,13.785v3.767l4.689-6.487Z" fill="rgba(255,255,255,0.6)"/>
+      <path id="Path_8607" data-name="Path 8607" d="M10.748,17.552V13.784L6.062,11.065Z" fill="#fff"/>
+      <path id="Path_8608" data-name="Path 8608" d="M10.752,12.912l4.686-2.721L10.752,8.1Z" fill="rgba(255,255,255,0.2)"/>
+      <path id="Path_8609" data-name="Path 8609" d="M6.062,10.192l4.686,2.721V8.1Z" fill="rgba(255,255,255,0.6)"/>
+    </g>
+  </g>
+  <g id="Component_177_2" data-name="Component 177 – 2" transform="translate(543 96)">
+    <circle id="Ellipse_541" data-name="Ellipse 541" cx="10" cy="10" r="10" fill="#161719"/>
+    <g id="Component_153_6" data-name="Component 153 – 6" transform="translate(4 5)">
+      <rect id="Rectangle_16581" data-name="Rectangle 16581" width="11.111" height="2.593" fill="#fff"/>
+      <rect id="Rectangle_16582" data-name="Rectangle 16582" width="11.111" height="2.593" transform="translate(0 4.074)" fill="#ff48a2"/>
+      <rect id="Rectangle_16583" data-name="Rectangle 16583" width="11.111" height="2.593" transform="translate(0 8.148)" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Mask_Group_72" data-name="Mask Group 72" transform="translate(-49 -5542)" clip-path="url(#clip-path-3)">
+    <g id="ethereum-2" data-name="ethereum" transform="translate(394.559 5637.945)">
+      <path id="Path_8612" data-name="Path 8612" d="M10.44,20.055a10,10,0,1,0-10-10A10,10,0,0,0,10.44,20.055Z" fill="#627eea"/>
+      <path id="Path_8613" data-name="Path 8613" d="M10.752,2.555V8.1l4.686,2.094Z" fill="rgba(255,255,255,0.6)"/>
+      <path id="Path_8614" data-name="Path 8614" d="M10.748,2.555,6.062,10.192,10.748,8.1Z" fill="#fff"/>
+      <path id="Path_8615" data-name="Path 8615" d="M10.752,13.785v3.767l4.689-6.487Z" fill="rgba(255,255,255,0.6)"/>
+      <path id="Path_8616" data-name="Path 8616" d="M10.748,17.552V13.784L6.062,11.065Z" fill="#fff"/>
+      <path id="Path_8617" data-name="Path 8617" d="M10.752,12.912l4.686-2.721L10.752,8.1Z" fill="rgba(255,255,255,0.2)"/>
+      <path id="Path_8618" data-name="Path 8618" d="M6.062,10.192l4.686,2.721V8.1Z" fill="rgba(255,255,255,0.6)"/>
+    </g>
+  </g>
+  <g id="Component_177_3" data-name="Component 177 – 3" transform="translate(854 96)">
+    <circle id="Ellipse_541-2" data-name="Ellipse 541" cx="10" cy="10" r="10" fill="#161719"/>
+    <g id="Component_153_6-2" data-name="Component 153 – 6" transform="translate(4 5)">
+      <rect id="Rectangle_16581-2" data-name="Rectangle 16581" width="11.111" height="2.593" fill="#fff"/>
+      <rect id="Rectangle_16582-2" data-name="Rectangle 16582" width="11.111" height="2.593" transform="translate(0 4.074)" fill="#ff48a2"/>
+      <rect id="Rectangle_16583-2" data-name="Rectangle 16583" width="11.111" height="2.593" transform="translate(0 8.148)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_16943" data-name="Rectangle 16943" width="20" height="20" transform="translate(1291 145)" fill="#959eb1" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Security" transform="translate(-1291 -145)" clip-path="url(#clip-path)">
+    <g id="密码" transform="translate(1291.714 145)">
+      <path id="Path_8736" data-name="Path 8736" d="M14.762,2.5A5.476,5.476,0,0,0,9.286,7.976v1.19H20.238V7.976A5.476,5.476,0,0,0,14.762,2.5Zm.121,1.43A4.048,4.048,0,0,1,18.8,7.738H10.721a4.049,4.049,0,0,1,4.041-3.81l.121,0Z" transform="translate(-5.476 -2.5)" fill="#959eb1"/>
+      <path id="Path_8737" data-name="Path 8737" d="M19.524,10.357H6.19a2.619,2.619,0,0,0-2.619,2.619V22.5A2.619,2.619,0,0,0,6.19,25.119H19.524A2.619,2.619,0,0,0,22.143,22.5V12.976a2.619,2.619,0,0,0-2.619-2.619ZM6.19,11.786H19.524a1.19,1.19,0,0,1,1.19,1.19V22.5a1.19,1.19,0,0,1-1.19,1.19H6.19A1.19,1.19,0,0,1,5,22.5V12.976a1.19,1.19,0,0,1,1.19-1.19Z" transform="translate(-3.571 -5.119)" fill="#959eb1"/>
+    </g>
+  </g>
+</svg>

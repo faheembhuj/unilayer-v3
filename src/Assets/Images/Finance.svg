@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="45" viewBox="0 0 45 45">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_16773" data-name="Rectangle 16773" width="45" height="45" transform="translate(385 2166)" fill="#4d4d4d"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_17" data-name="Mask Group 17" transform="translate(-385 -2166)" clip-path="url(#clip-path)">
+    <g id="reffinance" transform="translate(385 2166)">
+      <path id="Path_8011" data-name="Path 8011" d="M28.635,45H45L28.635,28.637Z" fill="#fff"/>
+      <path id="Path_8012" data-name="Path 8012" d="M45,0H35.454L45,9.545Z" fill="#00c6a2"/>
+      <path id="Path_8013" data-name="Path 8013" d="M29.317,28.636q-.343,0-.682-.018V18.375L39.773,8.033a12.955,12.955,0,0,1-10.456,20.6ZM36.864,5.151l-8.229,7.641V2.745q.339-.018.682-.018A12.9,12.9,0,0,1,36.864,5.151Z" fill="#f5f5f5" fill-rule="evenodd"/>
+      <path id="Path_8014" data-name="Path 8014" d="M27.273,2.727H15V14.834l5.507,5.507,6.766-6.283Zm0,16.914L20.4,26.021,15,20.62V45H27.273Z" fill="#f5f5f5" fill-rule="evenodd"/>
+      <path id="Path_8015" data-name="Path 8015" d="M13.636,2.727H0V20.289L10.228,10.061l3.408,3.408Zm0,16.528-3.408-3.409L0,26.075V45H13.636Z" fill="#f5f5f5" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>
