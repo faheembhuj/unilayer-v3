@@ -20,11 +20,11 @@ body {
   font-weight: bold;
   line-height: 75px;
   text-transform: uppercase;
-  color: #f5f5f5;
+  color: #F5F5F5;
 }
 
 .pink-col {
-  color: #ff84a1;
+  color: #FF48A1;
 }
 
 .HeadingH2 {
@@ -161,11 +161,11 @@ header.header {
   align-items: center;
 }
 
-.navbar .menu ul li > span {
+.navbar .menu ul li>span {
   cursor: pointer;
 }
 
-.navbar .menu ul li > span:hover {
+.navbar .menu ul li>span:hover {
   color: #ff48a1;
 }
 
@@ -218,7 +218,9 @@ header.header {
   font-size: 16px;
   padding: 8px 0;
   width: 100%;
-  display: block;
+  align-items: center;
+  display: flex;
+  transition: all 0.1s ease;
 }
 
 .navbar .menu ul ul.sub-menu li a:hover img {

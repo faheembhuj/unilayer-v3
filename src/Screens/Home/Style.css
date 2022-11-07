@@ -243,6 +243,7 @@ ul.quieks-links li {
 .coins-list:hover {
     background: #17181a;
     transform: translateY(3px);
+    box-shadow: 0 0 10px #ff48a166;
 }
 
 .row-reverse {
