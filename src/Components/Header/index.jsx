@@ -35,7 +35,9 @@ function Header() {
                     <div className="row">
                         <div className="col-4">
                             <div className="site-logo">
-                                <img src={Logo} alt="Unilayer" />
+                                <Link to="/">
+                                    <img src={Logo} alt="Unilayer" />
+                                </Link>
                             </div>
                         </div>
                         <div className="col-8">
@@ -64,6 +66,7 @@ function Header() {
                                     </li>
                                     {isActive ? (
                                         <ul
+                                            onMouseLeave={handleClick}
                                             className={`sub-menu ${
                                                 isActive ? 'Active' : ''
                                             }`}

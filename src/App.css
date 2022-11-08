@@ -207,8 +207,13 @@ header.header {
   width: 100%;
 }
 
+.navbar .menu ul li a:hover {
+  transform: scale(1.1);
+  color: #ff48a1;
+}
+
 .navbar .menu ul ul.sub-menu li img {
-  transition: all 0.5s ease;
+  /* transition: all 0.5s ease; */
   width: 100%;
   max-width: 19px;
   margin: 0 13px 0 0;
@@ -220,7 +225,7 @@ header.header {
   width: 100%;
   align-items: center;
   display: flex;
-  transition: all 0.1s ease;
+  transition: all 0.5s ease;
 }
 
 .navbar .menu ul ul.sub-menu li a:hover img {

@@ -9,7 +9,7 @@ function Banner() {
                 <div className="row">
                     <div className="col-12">
                         <h1 className="HeadingH1">
-                            <span className="pink-col">ONE-CLICK</span>
+                            <span className="pink-col">ONE-CLICK   </span>
                             CROSS-CHAIN
                         </h1>
                         <p className="para">
