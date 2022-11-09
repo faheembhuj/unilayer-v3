@@ -15,9 +15,13 @@ import CLose from '../../Assets/Images/CLose.svg'
 
 function Header() {
     const [isActive, setIsActive] = useState(false)
+    const [isToggle, setIsToggle] = useState(false)
 
     const handleClick = () => {
         setIsActive((current) => !current)
+    }
+    const handleToggleClick = () => {
+        setIsToggle((current) => !current)
     }
 
     return (
@@ -41,7 +45,19 @@ function Header() {
                             </div>
                         </div>
                         <div className="col-8">
-                            <div className="menu">
+                            <div
+                                className="mob-toggle"
+                                onClick={handleToggleClick}
+                            >
+                                <img src={Toggle} alt="Toggle" />
+                            </div>
+                            <div className={`menu ${isToggle ? 'Active' : ''}`}>
+                                <span
+                                    className="close-btn"
+                                    onClick={handleToggleClick}
+                                >
+                                    <img src={CLose} alt="CLose" />
+                                </span>
                                 <ul>
                                     <li>
                                         <Link to="/">Buy Unilayer</Link>
@@ -146,6 +162,13 @@ function Header() {
                                         <Link to="/">Launch App</Link>
                                     </li>
                                 </ul>
+                                {/* <div className="mob-social-icon">
+                                    <ul>
+                                        <li><Link to="/"><img src='' alt='Facebook' /></Link></li>
+                                        <li><Link to="/"><img src='' alt='' /></Link></li>
+                                        <li><Link to="/"><img src='' alt='' /></Link></li>
+                                    </ul>
+                                </div> */}
                             </div>
                         </div>
                     </div>

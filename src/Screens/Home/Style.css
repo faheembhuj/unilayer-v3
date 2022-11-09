@@ -506,7 +506,7 @@ section.sdk {
 }
 
 .new-letter .new-field form input[type="email"] {
-    padding: 23.5px 30px;
+    padding: 23.5px 140px 23.5px 30px;
     width: 100%;
     background: #18191D;
     border: 1px solid #242424;
@@ -547,4 +547,925 @@ section.sdk {
     border-radius: 10px;
     height: 320px;
     transition: all 0.5s ease;
+}
+
+.connent-wallet img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    body .container {
+        max-width: 320px;
+    }
+
+
+    .row {
+        flex-direction: column;
+    }
+
+    body .HeadingH1 {
+        font-size: 42px;
+        line-height: 60px;
+    }
+
+    section.hero-sec p.para {
+        font-size: 17px !important;
+        line-height: 30px;
+        width: 100%;
+    }
+
+    a.actionBtn {
+        width: 70%;
+        height: 60px;
+    }
+
+    section.hero-sec .hero-img {
+        padding: 20% 0;
+    }
+
+    section.hero-sec .hero-img img {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    section.hero-sec .hero-img:after {
+        width: 70px;
+        right: 0;
+        height: 70px;
+        top: 40px;
+    }
+
+    section.hero-sec .hero-img:before {
+        width: 60px;
+        height: 60px;
+        left: 0;
+        top: inherit;
+        bottom: 40px;
+    }
+
+    section.post-items {
+        margin: 0;
+    }
+
+    .col-3 {
+        width: 48%;
+    }
+
+    .post-items .row {
+        flex-direction: row;
+    }
+
+    .card {
+        padding: 10px 10px;
+        margin: 0 0 14px 0;
+        height: 220px;
+        border-radius: 11px;
+    }
+
+    h3.HeadingH4 {
+        font-size: 14px;
+    }
+
+    .card .card-img img {
+        width: 70%;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+
+    h2.HeadingH2 {
+        font-size: 28px;
+    }
+
+    .about .HeadingH2 {
+        line-height: 60px;
+        margin: 30px 0 0 0;
+        font-size: 32px;
+    }
+
+    p.para {
+        font-size: 17px !important;
+    }
+
+    ul.quieks-links li {
+        margin: 0;
+    }
+
+    ul.quieks-links {
+        justify-content: space-between;
+        margin: 60px 20px 20px 0px;
+    }
+
+    section.unilayer-support {
+        padding: 50px 0 0 0;
+    }
+
+    .unilayer-support h1 {
+        margin: 0;
+    }
+
+    .unilayer-support .row .col-3 {
+        margin: 0;
+    }
+
+    .unilayer-support .row {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .coins-list span {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .coins-list {
+        padding: 0 20px;
+    }
+
+    .third-round .container:before {
+        right: 0;
+        width: 120px;
+    }
+
+    .document .document-item {
+        flex-direction: column;
+        padding: 27px 20px 50px 20px;
+        height: auto;
+    }
+
+    .Widget .container:before {
+        right: 0;
+        top: -90px;
+        width: 70px;
+    }
+
+    h3.HeadingH3 {
+        font-size: 20px;
+        line-height: 30px !important;
+    }
+
+    .icon-box ul {
+        width: 100% !important;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .icon-box ul li {
+        margin: 10px 10px;
+        font-size: 17px;
+        line-height: 27px;
+        width: 43%;
+    }
+
+    .icon-box ul li img {
+        max-width: 27px;
+    }
+
+    .icon-box:nth-child(3) ul li {
+        width: 100%;
+    }
+
+    section.Widget {
+        padding: 20% 0;
+    }
+
+    .Widget .container:after {
+        width: 80px;
+        left: -50px;
+    }
+
+    .connent-wallet {
+        padding: 20px 0;
+    }
+
+    .sdk-content a.actionBtn {
+        height: 57px;
+        width: 60%;
+        font-size: 15px;
+    }
+
+    body .uni-grant .col-4 {
+        width: 48% !important;
+    }
+
+    .uni-grant .row {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .uni-grant .coins-list span {
+        font-size: 13px;
+        text-align: start;
+        line-height: 20px;
+    }
+
+    .uni-grant .coins-list img {
+        max-width: 19%;
+    }
+
+    .uni-grant .coins-list {
+        height: 90px;
+    }
+
+    .audits .col-6 {
+        width: 100%;
+    }
+
+    .uni-grant {
+        padding: 20% 0;
+    }
+
+    .third-round {
+        padding: 90px 0;
+    }
+
+    .third-round h1.HeadingH1 {
+        line-height: 60px;
+        font-size: 37px;
+    }
+
+    .col-4 {
+        width: 100% !important;
+    }
+
+    .round-item {
+        margin: 10px 0;
+        padding: 40px 20px 30px 20px;
+    }
+
+    .document .document-item a.tran-bg-link {
+        margin: 40px 0 0 0;
+        margin-right: auto;
+    }
+
+    .new-letter {
+        padding: 10% 0;
+    }
+
+    .new-letter h3.HeadingH3 {
+        padding: 0 0 30px 0;
+    }
+
+    footer .row {
+        flex-direction: row;
+    }
+
+    footer .community-links h3 {
+        font-size: 15px !important;
+    }
+
+    .community-links {
+        margin: 50px 0 0 0;
+    }
+
+    footer .community-links ul li a {
+        font-size: 15px !important;
+        padding: 1px 0;
+        margin: 10px 0;
+    }
+
+    .lange-list {
+        width: 100%;
+    }
+
+    body .language-list .lange-list .rbc-bug {
+        padding: 10px 5px;
+        width: 110px;
+        justify-content: center;
+    }
+
+    body .lange-list span {
+        font-size: 13px;
+    }
+
+    body .language-list .lange-list .rbc-bug img {
+        max-width: 30%;
+    }
+
+    section.document {
+        padding: 15% 0;
+    }
+
+    body .language-list .row {
+        flex-wrap: nowrap;
+    }
+
+    .copyRight {
+        padding: 40px 0 0 0;
+    }
+
+    .copyRight .col-6 {
+        width: fit-content !important;
+    }
+
+
+    .about .para {
+        margin: 30px 0 0 0;
+    }
+
+    .third-round .container:after {
+        left: -60px;
+        width: 70px;
+    }
+
+    .icon-box {
+        text-align: start;
+    }
+
+    section.about {
+        padding: 14% 0;
+    }
+}
+
+@media screen and (min-width: 568px) and (max-width: 767px) {}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    body .container {
+        max-width: 85%;
+    }
+
+    .topbar {
+        padding: 5px 0;
+    }
+
+    body .navbar .menu ul li a {
+        font-size: 14px;
+    }
+
+    body p.paraprimary {
+        font-size: 13px;
+    }
+
+    h1.HeadingH1 {
+        font-size: 59px;
+    }
+
+    ul.quieks-links li {
+        margin: 60px 0 0 0;
+    }
+
+    p.para {
+        font-size: 16px;
+    }
+
+    a.actionBtn {
+        width: 40%;
+        font-size: 17px;
+        height: 60px;
+    }
+
+    section.hero-sec .hero-img {
+        width: 80%;
+        margin: 0 auto;
+        padding: 14% 0;
+    }
+
+    section.hero-sec .hero-img:before {
+        top: 7%;
+        width: 80px;
+    }
+
+    section.hero-sec .hero-img:after {
+        width: 150px;
+        height: 122px;
+        bottom: 70px;
+    }
+
+    section.post-items {
+        margin: -50px 0 0 0;
+    }
+
+    .card {
+        height: 230px;
+        border-radius: 20px;
+    }
+
+    .card h3.HeadingH4 {
+        font-size: 12px;
+    }
+
+    h3.HeadingH4 {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .about .HeadingH2 {
+        font-size: 43px;
+        line-height: 50px;
+    }
+
+    ul.quieks-links li:first-child {
+        margin: 60px 40px 0 0;
+    }
+
+    a.tran-bg-link {
+        font-size: 17px;
+    }
+
+    .col-3 {
+        width: 24%;
+    }
+
+    .coins-list span {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .coins-list {
+        padding: 0 3px 0 13px;
+        height: 65px;
+    }
+
+    .unilayer-support .row .col-3 {
+        width: 23%;
+    }
+
+    .coins-list img {
+        margin: 0 10px 0 0;
+    }
+
+    section.about {
+        padding: 11% 0;
+    }
+
+    body .HeadingH2 {
+        font-size: 38px;
+    }
+
+    .unilayer-support h1 {
+        margin: 0;
+    }
+
+    .unilayer-support p.pink-col {
+        FONT-SIZE: 20PX;
+    }
+
+    h3.HeadingH3 {
+        font-size: 24px;
+        line-height: 40px !important;
+    }
+
+    .icon-box:nth-child(2) ul {
+        width: 100%;
+    }
+
+    .icon-box ul li {
+        font-size: 13px;
+        line-height: 27px;
+    }
+
+    .icon-box ul {
+        justify-content: space-evenly;
+    }
+
+    .Widget .container:before {
+        right: 0;
+        top: -70px;
+        width: 80px;
+    }
+
+    .Widget .container:after {
+        width: 90px;
+        left: -20px;
+        top: -20px;
+    }
+
+    .uni-grant .coins-list img {
+        max-width: 14%;
+    }
+
+    .uni-grant .coins-list span {
+        font-size: 14px;
+    }
+
+    .uni-grant .coins-list {
+        height: 60px;
+    }
+
+    .third-round .container:before {
+        right: 0;
+        width: 110px;
+        top: -140px;
+    }
+
+    .third-round h1.HeadingH1 {
+        font-size: 41px;
+        line-height: 52px;
+    }
+
+    .third-round .container:after {
+        left: -60px;
+        width: 80px;
+    }
+
+    .round-item .item-content p {
+        font-size: 13px;
+    }
+
+    .round-item .item-content h4.HeadingH4 {
+        font-size: 16px;
+        margin-top: 0;
+    }
+
+    .round-item .item-img img {
+        width: 100%;
+        max-width: 55%;
+    }
+
+    .document .document-item {
+        padding: 0 20px;
+        height: 220px;
+    }
+
+    .document .document-item p.para {
+        font-size: 16px;
+    }
+
+    .document .document-item h2.HeadingH2 {
+        margin: 0;
+    }
+
+    .new-letter .new-field form input[type="email"] {
+        padding: 20px 140px 20px 20px;
+        font-size: 17px;
+    }
+
+    body footer .community-links h3 {
+        font-size: 13px;
+    }
+
+    body footer .community-links ul li a {
+        font-size: 13px;
+        padding: 2px 0;
+    }
+
+    footer .community-links ul li {
+        margin: 3px 0;
+    }
+
+    body .language-list .lange-list .rbc-bug {
+        width: 36%;
+        padding: 10px 10px;
+    }
+
+    .unilayer-support h1 {
+        margin: 0;
+    }
+
+    .unilayer-support p.pink-col {
+        FONT-SIZE: 20PX;
+    }
+
+    .new-letter .row {
+        align-items: center;
+    }
+
+    .uni-grant {
+        padding: 10% 0;
+    }
+
+    .new-letter .new-field form input[type="submit"] {
+        padding: 0 20px;
+    }
+
+    .new-letter h3.HeadingH3 {
+        font-size: 19px;
+    }
+
+    body .lange-list span {
+        font-size: 16px;
+    }
+
+    .icon-box ul li img {
+        max-width: 25px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1365px) {
+
+    body .container {
+        max-width: 960px;
+    }
+
+    .topbar {
+        padding: 5px 0;
+    }
+
+    body .navbar .menu ul li a {
+        font-size: 14px;
+    }
+
+    body p.paraprimary {
+        font-size: 13px;
+    }
+
+    h1.HeadingH1 {
+        font-size: 59px;
+    }
+
+    ul.quieks-links li {
+        margin: 60px 0 0 0;
+    }
+
+    p.para {
+        font-size: 16px;
+    }
+
+    a.actionBtn {
+        width: 40%;
+        font-size: 17px;
+        height: 60px;
+    }
+
+    section.hero-sec .hero-img {
+        width: 80%;
+        margin: 0 auto;
+        padding: 14% 0;
+    }
+
+    section.hero-sec .hero-img:before {
+        top: 7%;
+        width: 80px;
+    }
+
+    section.hero-sec .hero-img:after {
+        width: 150px;
+        height: 122px;
+        bottom: 70px;
+    }
+
+    section.post-items {
+        margin: -50px 0 0 0;
+    }
+
+    .card {
+        height: 230px;
+        border-radius: 20px;
+    }
+
+    .card h3.HeadingH4 {
+        font-size: 12px;
+    }
+
+    h3.HeadingH4 {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .about .HeadingH2 {
+        font-size: 43px;
+        line-height: 50px;
+    }
+
+    ul.quieks-links li:first-child {
+        margin: 60px 40px 0 0;
+    }
+
+    a.tran-bg-link {
+        font-size: 17px;
+    }
+
+    .col-3 {
+        width: 24%;
+    }
+
+    .coins-list span {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .coins-list {
+        padding: 0 3px 0 13px;
+        height: 65px;
+    }
+
+    .unilayer-support .row .col-3 {
+        width: 23%;
+    }
+
+    .coins-list img {
+        margin: 0 10px 0 0;
+    }
+
+    section.about {
+        padding: 11% 0;
+    }
+
+    body .HeadingH2 {
+        font-size: 38px;
+    }
+
+    .unilayer-support h1 {
+        margin: 0;
+    }
+
+    .unilayer-support p.pink-col {
+        FONT-SIZE: 20PX;
+    }
+
+    h3.HeadingH3 {
+        font-size: 24px;
+        line-height: 40px !important;
+    }
+
+    .icon-box:nth-child(2) ul {
+        width: 100%;
+    }
+
+    .icon-box ul li {
+        font-size: 13px;
+        line-height: 27px;
+    }
+
+    .icon-box ul {
+        justify-content: space-evenly;
+    }
+
+    .Widget .container:before {
+        right: 0;
+        top: -70px;
+        width: 80px;
+    }
+
+    .Widget .container:after {
+        width: 90px;
+        left: -50px;
+        top: -80px;
+    }
+
+    .uni-grant .coins-list img {
+        max-width: 14%;
+    }
+
+    .uni-grant .coins-list span {
+        font-size: 14px;
+    }
+
+    .third-round .container:before {
+        right: 0;
+        width: 110px;
+        top: -140px;
+    }
+
+    .third-round h1.HeadingH1 {
+        font-size: 41px;
+        line-height: 52px;
+    }
+
+    .third-round .container:after {
+        left: -60px;
+        width: 80px;
+    }
+
+    .round-item .item-content p {
+        font-size: 13px;
+    }
+
+    .round-item .item-content h4.HeadingH4 {
+        font-size: 16px;
+        margin-top: 0;
+    }
+
+    .round-item .item-img img {
+        width: 100%;
+        max-width: 39%;
+    }
+
+    .document .document-item {
+        padding: 0 60px;
+        height: 220px;
+    }
+
+    .document .document-item p.para {
+        font-size: 16px;
+    }
+
+    .document .document-item h2.HeadingH2 {
+        margin: 0;
+    }
+
+    .new-letter .new-field form input[type="email"] {
+        padding: 20px 140px 20px 20px;
+        font-size: 17px;
+    }
+
+    body footer .community-links h3 {
+        font-size: 13px;
+    }
+
+    body footer .community-links ul li a {
+        font-size: 13px;
+        padding: 2px 0;
+    }
+
+    footer .community-links ul li {
+        margin: 3px 0;
+    }
+
+    body .language-list .lange-list .rbc-bug {
+        width: 36%;
+        padding: 10px 10px;
+    }
+
+    .unilayer-support h1 {
+        margin: 0;
+    }
+
+    .unilayer-support p.pink-col {
+        FONT-SIZE: 20PX;
+    }
+
+    .new-letter .row {
+        align-items: center;
+    }
+
+    .uni-grant {
+        padding: 10% 0;
+    }
+
+    .new-letter .new-field form input[type="submit"] {
+        padding: 0 20px;
+    }
+
+    .new-letter h3.HeadingH3 {
+        font-size: 19px;
+    }
+
+    body .lange-list span {
+        font-size: 16px;
+    }
+
+    .round-item .item-img {
+        height: auto;
+        padding: 0 0 20px 0;
+    }
+
+    .icon-box ul li img {
+        max-width: 25px;
+    }
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1600px) {
+    .third-round .container:before {
+        right: -70px;
+        width: 150px;
+    }
+
+    .third-round .container:after {
+        left: -100px;
+    }
+
+    .coins-list span {
+        font-size: 19px;
+    }
+
+    .unilayer-support p.pink-col {
+        font-size: 23px;
+    }
+
+    p.para {
+        font-size: 19px;
+    }
+}
+
+
+@media only screen and (max-device-height : 768px) and (min-device-height : 767px) and (max-device-width : 1366px) and (orientation : landscape) {
+    .card {
+        height: 270px;
+    }
+
+    section.about {
+        padding: 6% 0;
+    }
+
+    .icon-box ul li {
+        font-size: 15px;
+    }
+
+    .audits p.para {
+        padding: 0 20px 0 0;
+    }
+
+    .round-item {
+        height: 300px;
+    }
+
+    body .language-list .lange-list .rbc-bug {
+        width: 24%;
+    }
+
+    body .lange-list span {
+        font-size: 14px;
+    }
 }
