@@ -7,14 +7,19 @@ section.hero-sec {
     width: 100%;
 }
 
+.about {
+    padding: 0 0 4% 0;
+}
+
 section.hero-sec .hero-img {
     z-index: -1;
-    width: 100%;
-    padding: 21% 0;
+    width: 70%;
+    padding: 19% 0;
     background: url(../../Assets/Images/bannerbg.png) no-repeat center;
     background-size: cover;
-    /* background-image: radial-gradient(#ff84a1 60%, #17181a 40%); */
     position: relative;
+    margin-top: -120px !important;
+    margin: auto;
 }
 
 section.hero-sec .hero-img img {
@@ -43,8 +48,8 @@ section.hero-sec .hero-img:after {
     height: 256px;
     background: url(../../Assets/Images/coinbig.png) no-repeat center;
     background-size: contain;
-    right: -110px;
-    bottom: 120px;
+    right: -170px;
+    bottom: 180px;
     z-index: -1;
 }
 
@@ -93,7 +98,7 @@ section.hero-sec p.para {
 }
 
 .card .card-img img {
-    width: 100%;
+    width: 90%;
 }
 
 .card:hover {
@@ -102,12 +107,9 @@ section.hero-sec p.para {
 }
 
 section.post-items {
-    margin: -130px 0 0 0;
+    margin: -230px 0 50px 0;
 }
 
-.about {
-    padding: 5% 0;
-}
 
 .col-6 {
     width: 50%;
@@ -207,7 +209,7 @@ ul.quieks-links li {
     display: flex;
     align-items: center;
     background: #1C1D23;
-    margin: 9px 0;
+    margin: 4px 0;
     border-radius: 5px;
     transition: all 0.5s ease;
     border: 1px solid #1C1D23;
@@ -304,10 +306,10 @@ section.sdk {
     position: absolute;
     width: 116px;
     height: 116px;
-    left: -50px;
-    background: url(../../Assets/Images/coin3.png) no-repeat center;
+    left: -20px;
+    background: url(../../Assets/Images/coinnew.png) no-repeat center;
     background-size: contain;
-    bottom: 38%;
+    bottom: 37%;
     top: 0;
     margin: auto;
     z-index: -1;
@@ -370,7 +372,6 @@ section.sdk {
 }
 
 .uni-grant {
-    padding: 6% 0;
     text-align: center;
 }
 
@@ -412,6 +413,7 @@ section.sdk {
 .third-round {
     padding: 7% 0 6% 0;
     background: #1C1D23;
+    margin: 100px 0 0 0;
 }
 
 .third-round h1.HeadingH1 {
@@ -462,7 +464,7 @@ section.sdk {
 }
 
 .document {
-    padding: 7% 0;
+    padding: 4% 0;
 }
 
 .document .document-item {
@@ -489,7 +491,7 @@ section.sdk {
 }
 
 .new-letter {
-    padding: 5% 0;
+    padding: 3.5% 0;
     background: #FF48A1;
 }
 
@@ -590,6 +592,8 @@ section.sdk {
 
     section.hero-sec .hero-img {
         padding: 20% 0;
+        margin-top: 0 !important;
+        width: 100%;
     }
 
     section.hero-sec .hero-img img {
@@ -684,7 +688,7 @@ section.sdk {
     }
 
     .coins-list span {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 18px;
     }
 
@@ -929,6 +933,7 @@ section.sdk {
         width: 80%;
         margin: 0 auto;
         padding: 14% 0;
+        margin-top: -50px !important;
     }
 
     section.hero-sec .hero-img:before {
@@ -940,6 +945,7 @@ section.sdk {
         width: 150px;
         height: 122px;
         bottom: 70px;
+        right: -80px;
     }
 
     section.post-items {
@@ -1155,7 +1161,7 @@ section.sdk {
 @media screen and (min-width: 1024px) and (max-width: 1365px) {
 
     body .container {
-        max-width: 960px;
+        max-width: 840px;
     }
 
     .topbar {
@@ -1192,6 +1198,7 @@ section.sdk {
         width: 80%;
         margin: 0 auto;
         padding: 14% 0;
+        margin-top: -50px !important;
     }
 
     section.hero-sec .hero-img:before {
@@ -1202,7 +1209,8 @@ section.sdk {
     section.hero-sec .hero-img:after {
         width: 150px;
         height: 122px;
-        bottom: 70px;
+        bottom: 110px;
+        right: -100px;
     }
 
     section.post-items {
@@ -1374,7 +1382,7 @@ section.sdk {
     }
 
     body .language-list .lange-list .rbc-bug {
-        width: 36%;
+        width: 25% !important;
         padding: 10px 10px;
     }
 
