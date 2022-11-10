@@ -1182,10 +1182,10 @@ section.sdk {
         font-size: 16px;
     }
 
-    a.actionBtn {
-        width: 40%;
+    body a.actionBtn {
+        width: 30%;
         font-size: 17px;
-        height: 60px;
+        height: 55px !important;
     }
 
     section.hero-sec .hero-img {
@@ -1245,9 +1245,9 @@ section.sdk {
         line-height: 24px;
     }
 
-    .coins-list {
+    body .coins-list {
         padding: 0 3px 0 13px;
-        height: 65px;
+        height: 65px !important;
     }
 
     .unilayer-support .row .col-3 {
@@ -1305,7 +1305,7 @@ section.sdk {
     }
 
     .uni-grant .coins-list img {
-        max-width: 14%;
+        max-width: 10%;
     }
 
     .uni-grant .coins-list span {
@@ -1417,6 +1417,100 @@ section.sdk {
 }
 
 @media screen and (min-width: 1366px) and (max-width: 1600px) {
+    body .container {
+        max-width: 1000px;
+    }
+
+    a.actionBtn {
+        width: 25%;
+        font-size: 16px;
+    }
+
+    .unilayer-support .row .col-3 {
+        margin: 0 5px;
+    }
+
+    h2.HeadingH2 {
+        font-size: 50px;
+    }
+
+    h3.HeadingH3 {
+        font-size: 28px;
+    }
+
+    p.para {
+        font-size: 17px;
+    }
+
+    .uni-grant .coins-list {
+        padding: 0;
+        height: 70px;
+    }
+
+    .uni-grant .coins-list span {
+        font-size: 17px;
+    }
+
+    h1.HeadingH1 {
+        font-size: 50px;
+    }
+
+    h2.HeadingH2 {
+        font-size: 40px;
+        line-height: 50px !important;
+    }
+
+    .hero-img {
+        width: 70% !important;
+        margin: 0 auto;
+    }
+
+    section.hero-sec .hero-img:after {
+        width: 140px;
+        bottom: 81px;
+        right: -71px;
+    }
+
+    h3.HeadingH4 {
+        font-size: 15px;
+    }
+
+
+
+    .card .card-img img {
+        width: 80%;
+    }
+
+    .coins-list span {
+        font-size: 15px;
+    }
+
+    .round-item .item-content p {
+        font-size: 13px;
+    }
+
+    footer .community-links ul li a {
+        font-size: 15px;
+        padding: 0;
+    }
+
+    footer .community-links h3 {
+        font-size: 15px;
+    }
+
+    .card {
+        height: 280px;
+    }
+
+    .Widget .container:after {
+        width: 80px;
+        bottom: 50%;
+    }
+
+    .unilayer-support h1 {
+        margin: 0;
+    }
+
     .third-round .container:before {
         right: -70px;
         width: 150px;
@@ -1462,7 +1556,8 @@ section.sdk {
     }
 
     body .language-list .lange-list .rbc-bug {
-        width: 24%;
+        width: 20%;
+        padding: 9px 7px;
     }
 
     body .lange-list span {

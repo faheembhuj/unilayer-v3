@@ -338,13 +338,13 @@ footer .community-links ul li a:hover img {
 }
 
 .language-list .lange-list .rbc-bug {
-  padding: 20px 20px;
+  padding: 10px;
   border: 2px solid #FF48A1;
   border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 24%;
+  width: 130px;
   transition: all 0.5s ease;
 }
 
