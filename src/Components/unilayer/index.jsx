@@ -17,7 +17,7 @@ function Unilayer({ item }) {
                 </h2>
                 <p className="para">{item?.para}</p>
                 {item?.paraTwo ? <p className="para">{item?.paraTwo}</p> : ''}
-                {item?.link ? (
+                {/* {item?.link ? (
                     <ul className="quieks-links">
                         <li>
                             {' '}
@@ -34,7 +34,7 @@ function Unilayer({ item }) {
                     </ul>
                 ) : (
                     ''
-                )}
+                )} */}
             </div>
         </div>
     )

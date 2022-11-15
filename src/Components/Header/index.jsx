@@ -26,14 +26,14 @@ function Header() {
 
     return (
         <header className="header">
-            <div className="topbar">
+            {/* <div className="topbar">
                 <p className="paraprimary">
                     Stake Unilayer for up to 58% APR{' '}
                     <Link to="/about">
                         Learn more <FaArrowRight />
                     </Link>
                 </p>
-            </div>
+            </div> */}
             <div className="navbar">
                 <div className="container">
                     <div className="row">
@@ -44,7 +44,7 @@ function Header() {
                                 </Link>
                             </div>
                         </div>
-                        <div className="col-8">
+                        {/* <div className="col-8">
                             <div
                                 className="mob-toggle"
                                 onClick={handleToggleClick}
@@ -162,15 +162,8 @@ function Header() {
                                         <Link to="/">Launch App</Link>
                                     </li>
                                 </ul>
-                                {/* <div className="mob-social-icon">
-                                    <ul>
-                                        <li><Link to="/"><img src='' alt='Facebook' /></Link></li>
-                                        <li><Link to="/"><img src='' alt='' /></Link></li>
-                                        <li><Link to="/"><img src='' alt='' /></Link></li>
-                                    </ul>
-                                </div> */}
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

@@ -107,7 +107,6 @@ export const Beyond = {
     alttext: 'about',
     title: "UNILAYER'S",
     para: `One-click tools to get you Cross-Chain - trade your token directly on your platform!`,
-    paraTwo: `Founded in 2020, Unilayer already services over 70 crypto projects with its SDK and widget.`,
     className: 'row-reverse',
 }
 
@@ -317,12 +316,12 @@ export const SDKList = {
     title: 'YOUR RULES',
     pinkTitle: 'SDK:',
     subTitle: 'INTEGRATE 13 BLOCKCHAINS IN 30 MINUTES',
-    para: `Integration of Rubic's SDK gives your users the ability to swap 15,000+ tokens across 13 blockchains directly in your app or on your website.`,
+    para: `Integration of Unilayer's SDK gives your users the ability to swap 15,000+ tokens across 13 blockchains directly in your app or on your website.`,
     linkText: 'START INTEGRATION',
     Link: '#',
     Integrate: [
         {
-            integrateTitle: 'Who Can Integrate the Rubic SDK?',
+            integrateTitle: 'Who Can Integrate the Unilayer SDK?',
             integrateList: [
                 {
                     image: WalletIcon,
@@ -339,7 +338,7 @@ export const SDKList = {
             ],
         },
         {
-            integrateTitle: `Why Rubic's SDK Is Amazing:`,
+            integrateTitle: `Why Unilayer's SDK Is Amazing:`,
             integrateList: [
                 {
                     Title: 'Profit Sharing: Earn Up To 50% of Fees',
@@ -356,7 +355,7 @@ export const SDKList = {
             ],
         },
     ],
-    // Rubic = {
+    // Unilayer = {
     //   integrateTitle :'',
     //   integrateList = [
     //     {
@@ -381,7 +380,7 @@ export const widget = {
     pinkTitle: 'WIDGET:',
     subTitle: 'INTEGRATE 13 BLOCKCHAINS AND 15,000+ TOKENS IN 10 MINUTES',
     para: `Your users can buy tokens directly on your website, they don't have to go to an external provider (no need for a CEX, DEX or bridge). Any newly launched token is either automatically listed because of 60+ DEX aggregations or can be listed manually in a couple of minutes.`,
-    paraTwo: `50+ projects have already integrated Rubic's widget on their websites.`,
+    paraTwo: `50+ projects have already integrated Unilayer's widget on their websites.`,
     linkText: 'START INTEGRATION',
     Link: '#',
 }

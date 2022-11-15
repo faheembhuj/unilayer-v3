@@ -16,9 +16,9 @@ function Banner() {
                             Rubic can swap any of 15,000+ tokens, on and between
                             13 blockchains in one transaction
                         </p>
-                        <Link className="actionBtn" to="/">
+                        {/* <Link className="actionBtn" to="/">
                             CHECK IT OUT
-                        </Link>
+                        </Link> */}
 
                         <div className="hero-img">
                             <img src={HeroImg} alt="HeroImg" />
