@@ -236,7 +236,7 @@ footer {
   padding: 3% 0;
 }
 
-footer .community-links h3 {
+footer h3 {
   font-size: 18px;
   text-transform: uppercase;
   color: #959EB1;
@@ -245,16 +245,18 @@ footer .community-links h3 {
   line-height: 30px;
 }
 
-footer .community-links ul li {
-  margin: 5px 0;
+.community-links .link-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 20px 0 0;
 }
 
 footer .community-links ul li a {
   display: flex;
   padding: 3px 0;
   width: fit-content;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: 400;
   color: #F5F5F5;
   line-height: 30px;
   transition: all 0.5s ease;
@@ -279,6 +281,57 @@ footer .community-links ul li a:hover img {
   filter: brightness(0) saturate(100%) invert(47%) sepia(37%) saturate(4788%) hue-rotate(305deg) brightness(101%) contrast(101%);
 }
 
+.social-icon ul {
+  display: flex;
+  padding: 20px 0 0 0;
+}
+
+.social-icon ul li {
+  margin: 0 20px 0 0px;
+}
+
+.social-icon ul a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #959EB1;
+  border-radius: 30px;
+  transition: all 0.5s ease;
+  transform: scale(1.1);
+}
+
+.social-icon ul a:hover {
+  background: #ff48a1;
+  transform: scale(0.9);
+}
+
+.social-icon ul a img {
+  width: 100%;
+  max-width: 17px;
+}
+
+.social-icon .mail-link {
+  display: flex;
+  padding: 30px 0 0 0;
+  font-size: 17px;
+  text-transform: capitalize;
+  color: #fff;
+  transition: all 0.5s ease;
+  align-items: center;
+}
+
+.social-icon .mail-link img {
+  width: 100%;
+  max-width: 18px;
+  margin: 0 10px 0 0;
+  filter: brightness(0) saturate(100%) invert(99%) sepia(6%) saturate(133%) hue-rotate(52deg) brightness(118%) contrast(100%);
+}
+
+.social-icon .mail-link:hover {
+  color: #ff48a1;
+}
 
 .copyRight {
   margin: 40px 0 0 0;
@@ -356,6 +409,18 @@ footer .community-links ul li a:hover img {
 .mob-toggle,
 span.close-btn {
   display: none;
+}
+
+.site-logo-details img {
+  width: 100%;
+  max-width: 230px;
+}
+
+.site-logo-details p,
+.site-logo-details span {
+  padding: 20px 0 20px 0;
+  font-size: 16px;
+  line-height: 27px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {

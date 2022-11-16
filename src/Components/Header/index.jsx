@@ -1,28 +1,28 @@
-import React, { useState } from 'react'
-import { FaArrowRight } from 'react-icons/fa'
+import React from 'react'
+// import { FaArrowRight } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import Logo from '../../Assets/Images/Logo.svg'
-import Toggle from '../../Assets/Images/toggle.svg'
-import Cryptocurrencies from '../../Assets/Images/Crypto.svg'
-import Widget from '../../Assets/Images/Widget.svg'
-import SDK from '../../Assets/Images/SDK.svg'
-import Security from '../../Assets/Images/Security.svg'
-import LAYER from '../../Assets/Images/Token.svg'
-import FiatonRamp from '../../Assets/Images/Fiatramp.svg'
-import Team from '../../Assets/Images/Team.svg'
-import FAQ from '../../Assets/Images/Faq.svg'
-import CLose from '../../Assets/Images/CLose.svg'
+// import Toggle from '../../Assets/Images/toggle.svg'
+// import Cryptocurrencies from '../../Assets/Images/Crypto.svg'
+// import Widget from '../../Assets/Images/Widget.svg'
+// import SDK from '../../Assets/Images/SDK.svg'
+// import Security from '../../Assets/Images/Security.svg'
+// import LAYER from '../../Assets/Images/Token.svg'
+// import FiatonRamp from '../../Assets/Images/Fiatramp.svg'
+// import Team from '../../Assets/Images/Team.svg'
+// import FAQ from '../../Assets/Images/Faq.svg'
+// import CLose from '../../Assets/Images/CLose.svg'
 
 function Header() {
-    const [isActive, setIsActive] = useState(false)
-    const [isToggle, setIsToggle] = useState(false)
+    // const [isActive, setIsActive] = useState(false)
+    // const [isToggle, setIsToggle] = useState(false)
 
-    const handleClick = () => {
-        setIsActive((current) => !current)
-    }
-    const handleToggleClick = () => {
-        setIsToggle((current) => !current)
-    }
+    // const handleClick = () => {
+    //     setIsActive((current) => !current)
+    // }
+    // const handleToggleClick = () => {
+    //     setIsToggle((current) => !current)
+    // }
 
     return (
         <header className="header">

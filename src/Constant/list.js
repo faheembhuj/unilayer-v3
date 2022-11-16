@@ -451,118 +451,165 @@ export const ThirdRoundList = [
     },
 ]
 
-export const FootersList = [
+// export const FootersList = [
+//     {
+//         footertitle: 'COMMUNITY',
+//         footerLinks: [
+//             {
+//                 image: Twitter,
+//                 link: '#',
+//                 linkText: 'Twitter',
+//             },
+//             {
+//                 image: Telegram,
+//                 link: '#',
+//                 linkText: 'Telegram',
+//             },
+//             {
+//                 image: Dune,
+//                 link: '#',
+//                 linkText: 'Dune',
+//             },
+//             {
+//                 image: Reddit,
+//                 link: '#',
+//                 linkText: 'Reddit',
+//             },
+//             {
+//                 image: Youtube,
+//                 link: '#',
+//                 linkText: 'Youtube',
+//             },
+//             {
+//                 image: Facebook,
+//                 link: '#',
+//                 linkText: 'Facebook',
+//             },
+//             {
+//                 image: Discord,
+//                 link: '#',
+//                 linkText: 'Discord',
+//             },
+//             {
+//                 image: GitHub,
+//                 link: '#',
+//                 linkText: 'GitHub',
+//             },
+//             {
+//                 image: Medium,
+//                 link: '#',
+//                 linkText: 'Medium',
+//             },
+//             {
+//                 image: Docs,
+//                 link: '#',
+//                 linkText: 'Docs',
+//             },
+//         ],
+//     },
+//     {
+//         footertitle: 'ABOUT',
+//         footerLinks: [
+//             {
+//                 link: '#',
+//                 linkText: 'Pitch Deck',
+//             },
+//             {
+//                 link: '#',
+//                 linkText: 'One-Pager',
+//             },
+//             {
+//                 link: '#',
+//                 linkText: 'Team',
+//             },
+//             {
+//                 link: '#',
+//                 linkText: 'Security & Audit',
+//             },
+//             {
+//                 link: '#',
+//                 linkText: 'Contact Us',
+//             },
+//         ],
+//     },
+//     {
+//         footertitle: 'PRODUCTS',
+//         footerLinks: [
+//             {
+//                 link: '#',
+//                 linkText: 'All Cryptocurrencies',
+//             },
+//             {
+//                 link: '#',
+//                 linkText: 'SDK',
+//             },
+//             {
+//                 link: '#',
+//                 linkText: 'Widget Setup',
+//             },
+//             {
+//                 link: '#',
+//                 linkText: 'Fiat-on-Ramp',
+//             },
+//             {
+//                 link: '#',
+//                 linkText: 'Fiat-on-Ramp',
+//             },
+//         ],
+//     },
+//     {
+//         footertitle: 'FOR BUSINESS INQUIRIES',
+//         footerLinks: [
+//             {
+//                 link: '#',
+//                 linkText: 'Fill out the Form',
+//             },
+//         ],
+//     },
+// ]
+
+export const FooterLinks = [
     {
-        footertitle: 'COMMUNITY',
-        footerLinks: [
+        LinkGroup: [
             {
-                image: Twitter,
                 link: '#',
-                linkText: 'Twitter',
+                linkText: 'Basic Mode',
             },
             {
-                image: Telegram,
                 link: '#',
-                linkText: 'Telegram',
+                linkText: 'Aggregator',
             },
             {
-                image: Dune,
                 link: '#',
-                linkText: 'Dune',
-            },
-            {
-                image: Reddit,
-                link: '#',
-                linkText: 'Reddit',
-            },
-            {
-                image: Youtube,
-                link: '#',
-                linkText: 'Youtube',
-            },
-            {
-                image: Facebook,
-                link: '#',
-                linkText: 'Facebook',
-            },
-            {
-                image: Discord,
-                link: '#',
-                linkText: 'Discord',
-            },
-            {
-                image: GitHub,
-                link: '#',
-                linkText: 'GitHub',
-            },
-            {
-                image: Medium,
-                link: '#',
-                linkText: 'Medium',
-            },
-            {
-                image: Docs,
-                link: '#',
-                linkText: 'Docs',
+                linkText: 'Pro Mode',
             },
         ],
     },
     {
-        footertitle: 'ABOUT',
-        footerLinks: [
+        LinkGroup: [
             {
                 link: '#',
-                linkText: 'Pitch Deck',
+                linkText: 'Staking',
             },
             {
                 link: '#',
-                linkText: 'One-Pager',
-            },
-            {
-                link: '#',
-                linkText: 'Team',
-            },
-            {
-                link: '#',
-                linkText: 'Security & Audit',
-            },
-            {
-                link: '#',
-                linkText: 'Contact Us',
+                linkText: 'Launchpad',
             },
         ],
     },
     {
-        footertitle: 'PRODUCTS',
-        footerLinks: [
+        LinkGroup: [
             {
                 link: '#',
-                linkText: 'All Cryptocurrencies',
+                linkText: 'NFT',
             },
             {
                 link: '#',
-                linkText: 'SDK',
+                linkText: 'Market',
             },
             {
                 link: '#',
-                linkText: 'Widget Setup',
-            },
-            {
-                link: '#',
-                linkText: 'Fiat-on-Ramp',
-            },
-            {
-                link: '#',
-                linkText: 'Fiat-on-Ramp',
-            },
-        ],
-    },
-    {
-        footertitle: 'FOR BUSINESS INQUIRIES',
-        footerLinks: [
-            {
-                link: '#',
-                linkText: 'Fill out the Form',
+                linkText: 'Github',
             },
         ],
     },

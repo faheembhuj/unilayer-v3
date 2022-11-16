@@ -8,7 +8,8 @@ import {
     SDKList,
     GrantsList,
     ThirdRoundList,
-    FootersList,
+    // FootersList,
+    FooterLinks,
 } from './list'
 
 export {
@@ -21,5 +22,6 @@ export {
     widget,
     SDKList,
     ThirdRoundList,
-    FootersList,
+    // FootersList,
+    FooterLinks,
 }

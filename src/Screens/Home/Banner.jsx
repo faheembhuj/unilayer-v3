@@ -9,12 +9,12 @@ function Banner() {
                 <div className="row">
                     <div className="col-12">
                         <h1 className="HeadingH1">
-                            <span className="pink-col">ONE-CLICK   </span>
+                            <span className="pink-col">ONE-CLICK </span>
                             CROSS-CHAIN
                         </h1>
                         <p className="para">
-                            Rubic can swap any of 15,000+ tokens, on and between
-                            13 blockchains in one transaction
+                            Unilayer can swap any of 15,000+ tokens, on and
+                            between 13 blockchains in one transaction
                         </p>
                         {/* <Link className="actionBtn" to="/">
                             CHECK IT OUT
