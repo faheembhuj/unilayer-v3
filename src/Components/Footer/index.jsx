@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Logo from '../../Assets/Images/Logo.svg'
 import { FooterLinks } from '../../Constant/index'
 import Twitter from '../../Assets/Images/Twitter.svg'
