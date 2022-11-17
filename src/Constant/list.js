@@ -17,7 +17,6 @@ import Gnosis from '../Assets/Images/Gnosis.svg'
 import Fuse from '../Assets/Images/Fuse.svg'
 import Moonbeam from '../Assets/Images/Moonbeam.png'
 import Celo from '../Assets/Images/Celo.svg'
-// import Celo from '../Assets/Images/Celo.svg'
 import Algebra from '../Assets/Images/Algebra.svg'
 import ViperSwap from '../Assets/Images/ViperSwap.svg'
 import QuickSwap from '../Assets/Images/QuickSwap.svg'
@@ -55,16 +54,6 @@ import CertiKAudit from '../Assets/Images/CertiKAudit.png'
 import Apr from '../Assets/Images/Apr.svg'
 import Amount from '../Assets/Images/amount.svg'
 import Reward from '../Assets/Images/Reward.svg'
-// import Twitter from '../Assets/Images/Twitter.svg'
-// import Telegram from '../Assets/Images/Telegram.svg'
-// import Dune from '../Assets/Images/Dune.svg'
-// import Reddit from '../Assets/Images/Reddit.svg'
-// import Youtube from '../Assets/Images/Youtube.svg'
-// import Facebook from '../Assets/Images/Facebook.svg'
-// import Discord from '../Assets/Images/Discard.svg'
-// import GitHub from '../Assets/Images/GitHub.svg'
-// import Medium from '../Assets/Images/Medium.svg'
-// import Docs from '../Assets/Images/Docs.svg'
 
 export const PostsList = [
     {
@@ -451,123 +440,6 @@ export const ThirdRoundList = [
     },
 ]
 
-// export const FootersList = [
-//     {
-//         footertitle: 'COMMUNITY',
-//         footerLinks: [
-//             {
-//                 image: Twitter,
-//                 link: '#',
-//                 linkText: 'Twitter',
-//             },
-//             {
-//                 image: Telegram,
-//                 link: '#',
-//                 linkText: 'Telegram',
-//             },
-//             {
-//                 image: Dune,
-//                 link: '#',
-//                 linkText: 'Dune',
-//             },
-//             {
-//                 image: Reddit,
-//                 link: '#',
-//                 linkText: 'Reddit',
-//             },
-//             {
-//                 image: Youtube,
-//                 link: '#',
-//                 linkText: 'Youtube',
-//             },
-//             {
-//                 image: Facebook,
-//                 link: '#',
-//                 linkText: 'Facebook',
-//             },
-//             {
-//                 image: Discord,
-//                 link: '#',
-//                 linkText: 'Discord',
-//             },
-//             {
-//                 image: GitHub,
-//                 link: '#',
-//                 linkText: 'GitHub',
-//             },
-//             {
-//                 image: Medium,
-//                 link: '#',
-//                 linkText: 'Medium',
-//             },
-//             {
-//                 image: Docs,
-//                 link: '#',
-//                 linkText: 'Docs',
-//             },
-//         ],
-//     },
-//     {
-//         footertitle: 'ABOUT',
-//         footerLinks: [
-//             {
-//                 link: '#',
-//                 linkText: 'Pitch Deck',
-//             },
-//             {
-//                 link: '#',
-//                 linkText: 'One-Pager',
-//             },
-//             {
-//                 link: '#',
-//                 linkText: 'Team',
-//             },
-//             {
-//                 link: '#',
-//                 linkText: 'Security & Audit',
-//             },
-//             {
-//                 link: '#',
-//                 linkText: 'Contact Us',
-//             },
-//         ],
-//     },
-//     {
-//         footertitle: 'PRODUCTS',
-//         footerLinks: [
-//             {
-//                 link: '#',
-//                 linkText: 'All Cryptocurrencies',
-//             },
-//             {
-//                 link: '#',
-//                 linkText: 'SDK',
-//             },
-//             {
-//                 link: '#',
-//                 linkText: 'Widget Setup',
-//             },
-//             {
-//                 link: '#',
-//                 linkText: 'Fiat-on-Ramp',
-//             },
-//             {
-//                 link: '#',
-//                 linkText: 'Fiat-on-Ramp',
-//             },
-//         ],
-//     },
-//     {
-//         footertitle: 'FOR BUSINESS INQUIRIES',
-//         footerLinks: [
-//             {
-//                 link: '#',
-//                 linkText: 'Fill out the Form',
-//             },
-//         ],
-//     },
-// ]
-
 export const FooterLinks = [
     {
         LinkGroup: [
@@ -608,7 +480,7 @@ export const FooterLinks = [
                 linkText: 'Market',
             },
             {
-                link: '#',
+                link: 'https://www.github.com/unilayer',
                 linkText: 'Github',
             },
         ],

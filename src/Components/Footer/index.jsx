@@ -2,10 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Logo from '../../Assets/Images/Logo.svg'
 import { FooterLinks } from '../../Constant/index'
-
-/* import Logo from '../../Assets/Images/Logo.svg'
-import World from '../../Assets/Images/world.svg'
-import UnilayerIcon from '../../Assets/Images/unilayerIcon.svg' */
 import Twitter from '../../Assets/Images/Twitter.svg'
 import Telegram from '../../Assets/Images/Telegram.svg'
 import Medium from '../../Assets/Images/Medium.svg'
@@ -44,11 +40,11 @@ function Footer() {
                                                 (list, indx) => {
                                                     return (
                                                         <li key={`${indx + 1}`}>
-                                                            <Link
-                                                                to={list?.link}
+                                                            <a
+                                                                href={list?.link}
                                                             >
                                                                 {list?.linkText}
-                                                            </Link>
+                                                            </a>
                                                         </li>
                                                     )
                                                 }
@@ -64,22 +60,22 @@ function Footer() {
                             <h3>CONTACT US</h3>
                             <ul>
                                 <li>
-                                    <a href="#">
+                                    <a href="https://t.me/Unilayer" target="_blank"  rel="noreferrer"  >
                                         <img src={Telegram} alt="Telegram" />
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="https://twitter.com/unilayer_" target="_blank" rel="noreferrer" >
                                         <img src={Twitter} alt="Twitter" />
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a rel="noreferrer"  href="https://medium.com/@UniLayer/unilayer-next-generation-decentralised-trading-platform-524e458ec7ff" target="_blank">
                                         <img src={Medium} alt="Medium" />
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="https://discord.com/invite/BV5y3dd" target="_blank" rel="noreferrer" >
                                         <img src={Discord} alt="Discord" />
                                     </a>
                                 </li>
@@ -93,32 +89,6 @@ function Footer() {
                             </a>
                         </div>
                     </div>
-                    {/* {FootersList.map((item, index) => (
-                        <div className="col-3" key={`${index + 1}`}>
-                            <div className="community-links">
-                                <h3>{item?.footertitle}</h3>
-                                <ul>
-                                    {item?.footerLinks.map((list, indx) => (
-                                        <li key={`${indx + 1}`}>
-                                            <Link to={list?.link}>
-                                                {list?.image ? (
-                                                    <div className="link-icon">
-                                                        <img
-                                                            src={list?.image}
-                                                            alt={list?.image}
-                                                        />
-                                                    </div>
-                                                ) : (
-                                                    ''
-                                                )}
-                                                {list?.linkText}
-                                            </Link>
-                                        </li>
-                                    ))}
-                                </ul>
-                            </div>
-                        </div>
-                    ))} */}
                 </div>
             </div>
         </footer>

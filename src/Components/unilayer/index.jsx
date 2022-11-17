@@ -1,6 +1,4 @@
 import React from 'react'
-// import { FaArrowRight } from 'react-icons/fa'
-// import { Link } from 'react-router-dom'
 
 function Unilayer({ item }) {
     return (
@@ -17,24 +15,6 @@ function Unilayer({ item }) {
                 </h2>
                 <p className="para">{item?.para}</p>
                 {item?.paraTwo ? <p className="para">{item?.paraTwo}</p> : ''}
-                {/* {item?.link ? (
-                    <ul className="quieks-links">
-                        <li>
-                            {' '}
-                            <Link className="tran-bg-link" to={item?.link}>
-                                {item?.linkText} <FaArrowRight />
-                            </Link>
-                        </li>
-                        <li>
-                            {' '}
-                            <Link className="tran-bg-link" to={item?.linkTwo}>
-                                {item?.linkTowText} <FaArrowRight />
-                            </Link>
-                        </li>
-                    </ul>
-                ) : (
-                    ''
-                )} */}
             </div>
         </div>
     )

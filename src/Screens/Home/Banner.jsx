@@ -16,10 +16,6 @@ function Banner() {
                             Unilayer can swap any of 15,000+ tokens, on and
                             between 13 blockchains in one transaction
                         </p>
-                        {/* <Link className="actionBtn" to="/">
-                            CHECK IT OUT
-                        </Link> */}
-
                         <div className="hero-img">
                             <img src={HeroImg} alt="HeroImg" />
                         </div>
