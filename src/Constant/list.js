@@ -17,6 +17,8 @@ import Gnosis from '../Assets/Images/Gnosis.svg'
 import Fuse from '../Assets/Images/Fuse.svg'
 import Moonbeam from '../Assets/Images/Moonbeam.png'
 import Celo from '../Assets/Images/Celo.svg'
+import univ2 from '../Assets/Images/univ2.svg'
+import univ3 from '../Assets/Images/univ3.png'
 import Algebra from '../Assets/Images/Algebra.svg'
 import ViperSwap from '../Assets/Images/ViperSwap.svg'
 import QuickSwap from '../Assets/Images/QuickSwap.svg'
@@ -161,11 +163,11 @@ export const Supporter = [
         PinkSubTitle: 'DEXs',
         SupportorImages: [
             {
-                image: Celo,
+                image: univ2,
                 title: 'Uniswap v2',
             },
             {
-                image: Celo,
+                image: univ3,
                 title: 'Uniswap v3',
             },
             {
